@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "homepage": "https://Sathwik656.github.io/xavy-web2",
-  "predeploy": "npm run build && cp dist/index.html dist/404.html",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build && cp dist/index.html dist/404.html"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.0",
