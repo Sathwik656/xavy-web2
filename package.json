@@ -2,14 +2,13 @@
   "name": "xavy-gaming",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Sathwik656.github.io/xavy-web2",
   
   "scripts": {
+    "homepage": "https://Sathwik656.github.io/xavy-web2",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build && cp dist/index.html dist/404.html"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.0",
