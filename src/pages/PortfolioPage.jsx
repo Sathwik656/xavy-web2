@@ -1,4 +1,4 @@
-export default function PortfolioPage(){
+export default function PortfolioPages(){
   return (
     <div className="py-12 px-4">
       <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8 items-start">
